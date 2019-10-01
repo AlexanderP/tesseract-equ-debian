@@ -1,0 +1,22 @@
+Source: tesseract-equ
+Section: graphics
+Priority: optional
+Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 4.1.4
+Homepage: https://github.com/tesseract-ocr/
+
+Package: tesseract-ocr-equ
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for equations
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images of mathematics.
+

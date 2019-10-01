@@ -1,0 +1,32 @@
+Description: Add git ChangeLog
+Author: Alexander Pozdnyakov <almipo@mail.ru>
+Last-Update: 2018-02-17
+
+--- /dev/null	2018-05-15 20:11:39.625425796 +0300
++++ tesseract-lang-old2-4.00~git33-590567f/ChangeLog	2018-05-15 22:18:25.211004811 +0300
+@@ -0,0 +1,24 @@
++2018-05-10 - Add scripts from tessdata_best (converted to fast integer models) (commit: 72b8afe)
++2018-05-10 - Update traineddata LSTM model with best model converted to integer (commit: 3737fed)
++2018-05-10 - Remove cube components from traineddata and update version component (commit: c2b2e0d)
++2018-04-17 - Fix typo in README.md (commit: a1a7aaf)
++2018-03-29 - Remove parameter textord_tabfind_vertical_horizontal_mix (commit: 7c82fd6)
++2018-03-22 - Update README.md (commit: e504564)
++2018-03-22 - remove legacy model from indic and arabic script languages (commit: cdd8a9e)
++2018-03-22 - Only int best model for hin, san, mar, nep, tel and kan (commit: 8e7c7ae)
++2018-03-22 - Update LSTM Models to integerized tessdata_best for files<25mb (commit: fb1266d)
++2018-03-22 - Update LSTM Models to integerized tessdata_best for files < 25mb (commit: d87b3cb)
++2018-03-22 - update readme for integerized LSTM models (commit: 1366556)
++2017-09-14 - migrating to tessdata_best repository (commit: 9b2e3f6)
++2017-07-31 - Added best traineddatas for 4.00 alpha (commit: 3a94ddd)
++2017-06-05 - ita: Remove ita.config from ita.traineddata (commit: 71689a2)
++2016-12-28 - Add link to information in Tesseract wiki (commit: 5d7090e)
++2016-12-27 - Add README.md (commit: 4c25d86)
++2016-12-14 - Deleted cube tessdata (commit: 1575dd7)
++2016-11-28 - Added LSTM models+lang models to 101 langs (commit: 4592b8d)
++2016-03-08 - do not load Serbian Cyrillic for Serbian latin OCR (fixes #13) (commit: 3cf1e2d)
++2015-08-03 - add license info (commit: 6c96577)
++2015-06-24 - Updated 98 traineddata files with the 3.04 training. ara, eng, hin, kor not included as they regressed. (commit: 074c372)
++2014-09-07 - rename fraktur data to google tessdata pattern (commit: 4d64457)
++2014-08-12 - Initial commit of *all* the traineddata files and cube data (commit: bf82613)
++
+

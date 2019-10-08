@@ -3,7 +3,7 @@ Section: graphics
 Priority: optional
 Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 4.1.4
+Standards-Version: 4.3.0
 Homepage: https://github.com/tesseract-ocr/
 
 Package: tesseract-ocr-equ
@@ -19,4 +19,3 @@ Description: tesseract-ocr language files for equations
  Engine. It can be used directly, or (for programmers) using an API to
  extract printed text from images. This package contains the data
  needed for processing images of mathematics.
-

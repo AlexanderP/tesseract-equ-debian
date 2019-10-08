@@ -2,9 +2,13 @@ Description: Add git ChangeLog
 Author: Alexander Pozdnyakov <almipo@mail.ru>
 Last-Update: 2018-02-17
 
---- /dev/null	2018-05-15 20:11:39.625425796 +0300
-+++ tesseract-lang-old2-4.00~git33-590567f/ChangeLog	2018-05-15 22:18:25.211004811 +0300
-@@ -0,0 +1,24 @@
+--- /dev/null	2019-10-01 21:10:32.175873032 +0300
++++ tesseract-equ-4.0.0~git39-f97ee73/ChangeLog	2019-10-01 22:08:46.403576097 +0300
+@@ -0,0 +1,28 @@
++2019-09-03 - Add tessconfigs submodule and links for required tessdata files (commit: f97ee73)
++2019-06-13 - Remove old file COPYING (commit: 7348d96)
++2019-06-13 - Add Apache license file (commit: 5643c61)
++2019-03-14 - rename kur_ara.traineddata to  kmr.traineddata (commit: ef9cbef)
 +2018-05-10 - Add scripts from tessdata_best (converted to fast integer models) (commit: 72b8afe)
 +2018-05-10 - Update traineddata LSTM model with best model converted to integer (commit: 3737fed)
 +2018-05-10 - Remove cube components from traineddata and update version component (commit: c2b2e0d)
